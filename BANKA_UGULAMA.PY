@@ -31,7 +31,7 @@ while(True):
     print("2-para cek")
     print("3-bakiye görüntule")
     print("4-cıkıs")
-    choice=int(input("seiminizi yapınız 1 ve 4 arasında "))
+    choice=int(input("seciminizi yapınız 1 ve 4 arasında "))
     if(choice==1):
      amount=float(input("lutfene yatırmak ıstedıgınız para tutarını gırınız:"))
      depozit(amount,account)
